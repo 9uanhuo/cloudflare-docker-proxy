@@ -7,16 +7,22 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.libcuda.so": dockerHub,
-  "quay.libcuda.so": "https://quay.io",
-  "gcr.libcuda.so": "https://gcr.io",
-  "k8s-gcr.libcuda.so": "https://k8s.gcr.io",
-  "k8s.libcuda.so": "https://registry.k8s.io",
-  "ghcr.libcuda.so": "https://ghcr.io",
-  "cloudsmith.libcuda.so": "https://docker.cloudsmith.io",
+  "docker.guanhuo.dev": dockerHub,
+  "quay.guanhuo.dev": "https://quay.io",
+  "gcr.guanhuo.dev": "https://gcr.io",
+  "k8s-gcr.guanhuo.dev": "https://k8s.gcr.io",
+  "k8s.guanhuo.dev": "https://registry.k8s.io",
+  "ghcr.guanhuo.dev": "https://ghcr.io",
+  "cloudsmith.guanhuo.dev": "https://docker.cloudsmith.io",
 
   // staging
-  "docker-staging.libcuda.so": dockerHub,
+  "docker.stg.guanhuo.dev": dockerHub,
+  "quay.stg.guanhuo.dev": "https://quay.io",
+  "gcr.stg.guanhuo.dev": "https://gcr.io",
+  "k8s-gcr.stg.guanhuo.dev": "https://k8s.gcr.io",
+  "k8s.stg.guanhuo.dev": "https://registry.k8s.io",
+  "ghcr.stg.guanhuo.dev": "https://ghcr.io",
+  "cloudsmith.stg.guanhuo.dev": "https://docker.cloudsmith.io",
 };
 
 function routeByHosts(host) {
